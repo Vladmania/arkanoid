@@ -1,0 +1,110 @@
+body{
+    background: black;
+}
+.field{
+    position: absolute;
+    left: 200px;
+    width: 780px;
+    height: 600px;
+    border-radius: 5px;
+    border: black ridge 2px;
+    background-image: url(img/grounds.jpg);
+    border: white ridge 2px;
+    
+}
+.game{
+  display: flex;
+  justify-content: center;
+    
+}
+
+.block{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    background: linear-gradient(rgb(255, 0, 0),  rgb(255, 255, 255));;
+}
+.block1{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    background: linear-gradient(rgb(94, 255, 0),  rgb(255, 255, 255)); 
+}
+.block2{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background: linear-gradient(rgb(238, 255, 0),  rgb(255, 255, 255));
+}
+
+
+.user{
+    position: absolute;
+    height: 20px;
+    background: linear-gradient(rgb(255, 255, 255),  rgb(3, 3, 3));
+    border-radius: 3px;
+}
+.boll{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(rgb(124, 123, 122),  rgb(251, 250, 250));
+}
+.title{
+    color: rgb(251, 250, 250);
+    text-align: center;
+    font-size: 50px;
+}
+.counter{    
+    font-size: 26px;
+}
+.life{   
+    font-size: 26px;
+}
+.text_counter{    
+    font-size: 26px;
+}
+.text_life{  
+    font-size: 26px;
+}
+.text_level{
+    font-size: 26px;
+}
+.level{
+    font-size: 26px; 
+}
+.btn{
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(97, 2, 206);
+    color: cornsilk;
+    font-size: 20px;
+}
+.account{
+    position: absolute;
+    right: 160px;
+    background: linear-gradient(rgb(109, 107, 107),rgb(255, 255, 255),rgb(77, 76, 76));
+    width: 200px;
+    height: 580px;
+    padding: 10px;
+    border: white ridge 2px;
+}
+.textGameOver{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+
+.gameOver{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 16, 16);
+    width: 100%;
+    height: 100%;
+
+}
